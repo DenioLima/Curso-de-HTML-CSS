@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right,rgb(221, 243, 221),rgb(184, 236, 184));
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    background-color: #397226;
+    color: rgb(250, 245, 244);
+    
+    
+}
+h2{
+    color: rgb(40, 73, 13);
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+#principal{
+    
+    color: rgb(13, 245, 118);
+    text-align: left;
+}
+.igual{
+    color: rgb(158, 247, 118);
+    text-align: left;
+    
+}

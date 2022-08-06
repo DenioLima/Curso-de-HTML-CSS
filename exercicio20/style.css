@@ -1,0 +1,28 @@
+@charset "UTF8";
+@font-face {
+    font-family:'medieval';
+    src: url('fontes/Enchanted\ Land.otf') format('Opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2? family = Fredericka + the + Great & display = swap');
+body {
+    background-image: linear-gradient(to bottom, rgb(224, 236, 245),rgb(58, 114, 224)); 
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+h1{
+    color: rgb(17, 17, 17);
+    text-align: center;
+    font-family:'medieval';
+    font-size: 60px;
+    
+    
+}
+h2{
+    font-family:'Fredericka, a Grande';
+    font-size: 32px;
+    
+}
