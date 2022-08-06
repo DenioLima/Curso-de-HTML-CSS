@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, rgb(247, 238, 238), rgb(240, 226, 226));
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    font-size: 30px;
+}
+h2{
+    background-color: rgb(182, 84, 84);
+    font-size: 25px;
+    width: 160px;
+    height: 60px;
+    color: rgb(245, 245, 245);
+    border: 1px black;
+}
+a{
+    color: rgb(176, 206, 5);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(3, 45, 160);
+}
+a:hover{
+    color:rgb(134, 45, 9);
+    text-decoration: underline;
+}
+a::before{
+    content: '⥤ ';
+}
+a::after{
+    content: ' ⥢';
+}
+
