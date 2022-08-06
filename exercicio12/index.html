@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens exercicios html/favicon.ico" type="image/x-icon">
+    <title>Midias(Audios)</title>
+</head>
+<body>
+    <h1>Reproduzindo audíos &#x1F4FB;&#x1F508;&#x1F3A7;</h1>
+    <p>Quero reproduzir um audío, para isso vou usar a tag &lt;audio&gt; 
+        logo depois <mark>controls autoplay</mark>,porém fica limitado.
+    </p>
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+    <p>para não acontecer isso, vou usar a tag &lt;audio&gt;, más vou tirar
+        o <mark>src</mark> e vou colocar o a <mark>source src</mark> qué a fonte, 
+        e especificar as outras 3 fontes possiveis, q são <mark>MP3</mark>, 
+        <mark>WAV</mark>, <mark>OGG</mark>, sermpre usando source.
+    </p>
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio>
+    <p>Infelizmente seu navegador não consegue Reproduzindo o audio,
+        <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </p>
+</body>
+</html>
